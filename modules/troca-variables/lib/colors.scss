@@ -1,0 +1,47 @@
+//COLORS
+
+$brand-primary: #ff8800;
+$brand-secondary: #385F74;
+$brand-tertiary: #607D8B;
+$brand-fourth: #0088cc;
+$brand-fifth: #f06f31;
+$brand-info:    #3f8aeb;
+$brand-error: #d02828;
+$brand-success: #52cb7b;
+$brand-primary-lighter: #ffa53d;
+$red-discounts: #fe4d55;
+$green-discounts: $brand-success;
+
+$black:  #000;
+$grayscale-90:  #333333;
+$grayscale-80: #404040;
+$grayscale-70: #5b5b5b;
+$grayscale-60:  #999999;
+$grayscale-50: #cccccc;
+$grayscale-40: #d5d5d5;
+$grayscale-30: #ececec;
+$grayscale-20: #f4f4f4;
+$grayscale-10: #fafafa;
+$white: #fff;
+
+//PAGE CONTAINER
+$body-bg: #fff;
+$page-container-bg: $grayscale-20;
+
+//STRIPPED BACKGROUND
+$stripped-bg-dark: $grayscale-10;
+$stripped-bg-light: #fff;
+
+//GRAY BOX WITH GRAY BORDER
+$content-box-bg: $white;
+$content-box-bdr: $grayscale-50;
+
+
+//BUTTONS
+$link-primary-color: $brand-fourth;
+$link-primary-color-hover: $brand-primary;
+$link-primary-color-active: $brand-fifth;
+$link-secondary-color: $brand-tertiary;
+$link-secondary-color-hover: $brand-primary;
+$link-secondary-color-active: $brand-fifth;
+
