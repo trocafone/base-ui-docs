@@ -18,5 +18,11 @@
   "scripts": {
     "build": "node_modules/.bin/webpack -p",
     "dev": "webpack-dev-server"
+  },
+  "dependencies": {
+    "@tech-trocafone/base-ui": "^1.0.3",
+    "clipboard": "^1.7.1",
+    "jquery": "^3.3.1",
+    "prismjs": "^1.10.0"
   }
 }
