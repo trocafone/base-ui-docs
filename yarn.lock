@@ -2,7 +2,7 @@
 # yarn lockfile v1
 
 
-"@tech-trocafone/base-ui@^1.0.6":
+"@tech-trocafone/base-ui@1.0.6":
   version "1.0.6"
   resolved "https://registry.yarnpkg.com/@tech-trocafone/base-ui/-/base-ui-1.0.6.tgz#7b43446f83c24e603e48292d3f693f4b6bc00ad7"
   dependencies:
