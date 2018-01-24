@@ -2,7 +2,7 @@
 
 import 'jquery';
 import '@tech-trocafone/base-ui/dist/troca-core.js';
-import '@tech-trocafone/base-ui/dist/style.css';
+import '@tech-trocafone/base-ui/dist/css/style.css';
 
 import 'prismjs/prism';
 import 'prismjs/plugins/normalize-whitespace/prism-normalize-whitespace';
