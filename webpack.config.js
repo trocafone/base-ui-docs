@@ -23,7 +23,8 @@ module.exports = {
                 test: /\.scss|\.css$/,
                 use: ExtractTextPlugin.extract({
                     fallback: 'style-loader',
-                    use: ['css-loader', 'sass-loader']
+                    use: ['css-loader', 'sass-loader'],
+                    publicPath: '../'
                 })
             },
             {
@@ -36,7 +37,7 @@ module.exports = {
         ]
     },
     plugins: [
-        new ExtractTextPlugin('style.css'),
+        new ExtractTextPlugin('css/style.css'),
         new webpack.ProvidePlugin({
             $: "jquery",
             jQuery: "jquery"
