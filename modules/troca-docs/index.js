@@ -13,4 +13,4 @@ import './lib/navigation.js';
 import './lib/prism';
 import './lib/select';
 
-import '../../docs/index.html'
+import './index.html'
