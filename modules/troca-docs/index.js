@@ -12,3 +12,5 @@ import './troca-docs.scss';
 import './lib/navigation.js';
 import './lib/prism';
 import './lib/select';
+
+import '../../docs/index.html'

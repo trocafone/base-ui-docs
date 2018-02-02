@@ -33,6 +33,13 @@ module.exports = {
                 options: {
                     name: 'fonts/[name].[ext]?[hash]'
                 }
+            },
+            {
+                test: /\.html$/,
+                loader: 'file-loader',
+                options: {
+                    name: '[name].[ext]'
+                }
             }
         ]
     },
