@@ -7,7 +7,7 @@ module.exports = {
         app: './modules/troca-docs/index.js',
     },
     output: {
-        path: path.resolve(__dirname, 'dist'),
+        path: path.resolve(__dirname, 'docs'),
         filename: 'troca-docs.js',
     },
     module: {
@@ -32,6 +32,13 @@ module.exports = {
                 loader: 'file-loader',
                 options: {
                     name: 'fonts/[name].[ext]?[hash]'
+                }
+            },
+            {
+                test: /\.html$/,
+                loader: 'file-loader',
+                options: {
+                    name: '[name].[ext]'
                 }
             }
         ]
